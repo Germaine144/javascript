@@ -128,6 +128,70 @@ Expected
 'fge'
 
 show hint*/
+//8.Write a function that takes a string as argument. The string contains the substring 'is'. Return the index of 'is'.
+function myFunction(a){
+return a.inedxOf('is');
+}
+/*Test Cases:
+Attempted: 110805
+Solved: 49738
+myFunction("praise")
+Expected
+3
+myFunction("risky")
+Expected
+1
+myFunction("paris")
+Expected
+3*/
+//9.Write a function that takes a string (a) as argument. Extract the first half a. Return the result
+function myFunction(a){
+return a.slice(0, a.length / 2);
+}
+/*Test Cases:
+Attempted: 185038
+Solved: 61710
+myFunction('abcdefgh')
+Expected
+'abcd'
+myFunction('1234')
+Expected
+'12'
+myFunction('gedcba')
+Expected
+'ged'*/
+//10.Write a function that takes a string (a) as argument. Remove the last 3 characters of a. Return the result
+function myFunction(a){
+return a.slice(0, -3);
+}
+/*Test Cases:
+Attempted: 177875
+Solved: 60186
+myFunction('abcdefg')
+Expected
+'abcd'
+myFunction('1234')
+Expected
+'1'
+myFunction('fgedcba')
+Expected
+'fged'*/
+//11/.Write a function that takes two numbers (a and b) as argument. Return b percent of a
+function myFunction(a, b){
+return (b/100)*a; or  b / 100 * a
+}
+/*Test Cases:
+Attempted: 216825
+Solved: 55544
+myFunction(100,50)
+Expected
+50
+myFunction(10,1)
+Expected
+0.1
+myFunction(500,25)
+Expected
+125*/
 
 
 
