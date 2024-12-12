@@ -20,7 +20,7 @@ Expected
 function myFunction(a, b) {
     return a === b;
   }
-//Test Cases:
+/*Test Cases:
 Attempted: 387497
 Solved: 136065
 myFunction(2, 3)
@@ -34,12 +34,12 @@ Expected
 false 
 myFunction('10', '10')
 Expected
-true 
+true */
 //3.Write a function that takes a value as argument. Return the type of the value.
 function myFunction(a){
 return typeof a ;
 }
-//Test Cases:
+/*Test Cases:
 Attempted: 276714
 Solved: 125725
 myFunction(1)
@@ -59,12 +59,12 @@ Expected
 'string'
 myFunction(['array'])
 Expected
-'object'
+'object'*/
 //4.Write a function that takes a string (a) as argument. Remove the first 3 characters of a. Return the result
 function myFunction(a){
 return a.slice(3);
 }
-Test Cases:
+/*Test Cases:
 Attempted: 265608
 Solved: 83307
 myFunction('abcdefg')
@@ -75,5 +75,60 @@ Expected
 '4'
 myFunction('fgedcba')
 Expected
-'dcba'
+'dcba'*/
+//5Write a function that takes a string (a) and a number (n) as argument. Return the nth character of 'a'.
+function myFunction(a, n){
+return 
+}
+/*Test Cases:
+Attempted: 608244
+Solved: 98897
+myFunction('abcd',1)
+Expected
+'a'
+myFunction('zyxbwpl',5)
+Expected
+'w'
+myFunction('gfedcba',3)
+Expected
+'e'*/
+//6.Write a function that takes a string as argument. Extract the last 3 characters from the string. Return the result
+function myFunction(str){
+return str.slice(-3);
+}
+/*Test Cases:
+Attempted: 260427
+Solved: 90416
+myFunction('abcdefg')
+Expected
+'efg'
+myFunction('1234')
+Expected
+'234'
+myFunction('fgedcba')
+Expected
+'cba'
+
+show hint*/
+//7Write a function that takes a string (a) as argument. Get the first 3 characters of a. Return the result
+function myFunction(a){
+return a.slice(0, 3);
+}
+/*Test Cases:
+Attempted: 197238
+Solved: 78101
+myFunction('abcdefg')
+Expected
+'abc'
+myFunction('1234')
+Expected
+'123'
+myFunction('fgedcba')
+Expected
+'fge'
+
+show hint*/
+
+
+
 
