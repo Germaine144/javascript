@@ -192,6 +192,95 @@ Expected
 myFunction(500,25)
 Expected
 125*/
+//12.Write a function that takes 6 values (a,b,c,d,e,f) as arguments. Sum a and b. Then substract by c. Then multiply by d and divide by e. Finally raise to the power of f and return the result. Hint: mind the order.
+function myFunction(a, b, c, d, e, f){
+return (((a + b - c) * d) / e) ** f;
+}
+/*Test Cases:
+Attempted: 139263
+Solved: 44959
+myFunction(6,5,4,3,2,1)
+Expected
+10.5
+myFunction(6,2,1,4,2,3)
+Expected
+2744
+myFunction(2,3,6,4,2,3)
+Expected
+-8*/
+//13.Write a function that takes two strings (a and b) as arguments. If a contains b, append b to the beginning of a. If not, append it to the end. Return the concatenation
+function myFunction(a, b){
+return  a.indexOf(b) === -1 ? a + b : b + a; or 
+}
+/*function myFunction(a, b) {
+    if (a.includes(b)) {
+      return b + a;
+    } else {
+      return a + b;
+    }
+  }*/
+/*Test Cases:
+Attempted: 150380
+Solved: 46117
+myFunction('cheese', 'cake')
+Expected
+'cheesecake'
+myFunction('lips', 's')
+Expected
+'slips'
+myFunction('Java', 'script')
+Expected
+'Javascript'
+myFunction(' think, therefore I am', 'I')
+Expected
+'I think, therefore I am'*/
+//14.Write a function that takes a number as argument. If the number is even, return true. Otherwise, return false
+function myFunction(a){
+return a % 2 === 0;
+}
+/*Test Cases:
+Attempted: 106537
+Solved: 48917
+myFunction(10)
+Expected
+true
+myFunction(-4)
+Expected
+true
+myFunction(5)
+Expected
+false
+myFunction(-111)
+Expected
+false*/
+//15.Write a function that takes two strings (a and b) as arguments. Return the number of times a occurs in b.
+function myFunction(a, b){
+return  b.split(a).length - 1 or
+function myFunction(a, b) {
+    let count = 0;
+    for (let i = 0; i < b.length; i++) {
+      if (b[i] === a) {
+        count++;
+      }
+    }
+    return count;
+  }
+}
+Test Cases:
+Attempted: 186418
+Solved: 39219
+myFunction('m', 'how many times does the character occur in this sentence?')
+Expected
+2
+myFunction('h', 'how many times does the character occur in this sentence?')
+Expected
+4
+myFunction('?', 'how many times does the character occur in this sentence?')
+Expected
+1
+myFunction('z', 'how many times does the character occur in this sentence?')
+Expected
+0
 
 
 
