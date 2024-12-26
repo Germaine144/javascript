@@ -280,8 +280,80 @@ Expected
 1
 myFunction('z', 'how many times does the character occur in this sentence?')
 Expected
-0
+=======================================================================================
+//function Speed (Distance,Time){
+  //let speedCalculared = Distance/Time;
+  // return speedCalculared;
+//}
+//console.log(Speed(120,3))
 
+//let a="anna"
+//console.log(typeof a)
+//a.charAt(1)
+function late (p,r,t){
+  let lateCalculared = (p*r*t)/100;
+  return lateCalculared;
+}
+console.log(late(120,20,40))
+
+
+
+function cube(side){
+  let cubeCalculared = side*3;
+  return cubeCalculared;
+}
+console.log(cube(10))
+
+==============================================================================================================
+let number = 1;
+if (number % 2 === 0) {
+    console.log('Number is even');
+} 
+
+else {
+    console.log('Number is odd');
+}
+-----------------------------------------------------------------
+function area (l,w){
+  let areaCalculared = l*w;
+  
+  return areaCalculared ;
+}
+
+console.log(area(10,5))
+--------------------------------------------------------------
+function average (n1,n2,n3,n4){
+  return n1+n2+n3+n4/4
+}
+console.log(average(1,2,3,4))
+
+----------------------------------------------------------------
+function minute(min){
+return min/60
+  
+}
+console.log (minute(60))
+------------------------------------------------------------
+
+
+
+function sumArray(arr){
+  let sum = 0;
+  for(i=0  i.Array.length,)
+{
+
+}
+}
+
+/*Declare a sum variable and assign it the value of calling your addTwoNumbers function with 5 and 10 as the arguments. Log the sum variable to the console.*/
+let sum;
+sum = addTwoNumbers(5, 10);
+console.log(sum);
+function addTwoNumbers(num1, num2) {
+    let sum;
+    sum = num1 + num2;
+    return sum;
+}
 
 
 
